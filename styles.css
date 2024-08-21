@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,h2 {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+h2 {
+    color: hsl(273, 40%, 50%)
+}
+
+body {
+    background-color: hsl(142, 22%, 90%);
+}
+
+main {
+    width: 75%;
+    min-width: 600px;
+    margin: 10px auto;
+}
+
+table {
+    border: 2px solid hsl(300,40%,50%); 
+    margin: 10px 10px;
+    line-height: 1.4;
+    width: 100%;
+}
+
+
+.mono {
+    font-family: Courier, monospace;
+    background-color: ivory; 
+    font-size: smaller;
+}
+
+thead tr th {
+    background-color: hsl(300,40%,70%);
+    padding: 2px 10px;
+    font-size: larger;
+}
+
+td {
+    padding: 2px 25px 2px 2px;
+    font-size: normal;
+    border-top: 1px solid hsl(300,40%,50%);
+}
+
